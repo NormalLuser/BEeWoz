@@ -1,12 +1,17 @@
 
 # BEeWoz 
 WozMon for the Ben Eater 6502 with a ACIA add-on 
- 
+Pretty sure I got it:
+https://github.com/kissmywhat/sd/blob/master/woz_sd.asm
+
 Details about ACIA added to $4000 came from this fine person: 
 mike42 
+Also Wilsonminesco, and the 6502 org threads.
 
-I'm using a free version of Tera Term.
-I've slowed down communication so that nothing is dropped.
+I'm using a free version of Tera Term for the RS232 connection.
+A cheap USB to RS232 adapter is used, it crashes sometimes and needs
+to be unplugged/plugged back in. Tera Term sometimes needs to be restarted as well.
+I've slowed down communication so that nothing is dropped when pasting.
 Experiment with this when you are doing longer programs to see how fast it works for you.
 
 Got to Setup→ Serial Port
