@@ -34,7 +34,10 @@ Or change it:
 Or change a row of data:
 2000: FF FF FF FF FF FF FF FF
 
-You can also run programs stored at locations in memory. These can be programs already loaded on the  ROM by entering the location followed by R like this:
+You can also run programs stored at locations in memory. 
+These can be programs already loaded on the  ROM.
+If you compile using the included bin files the below examples will work. 
+You run a program by entering the location followed by R like this:
  
 8440 R 
 
@@ -55,7 +58,7 @@ If the program ends with a RTS and the registers and flags are pushed/pulled it 
 1000 R
 
 
-Here is the code that created the bin source for the above paste-able Woz file:
+Here is the code that created the bin source for the above paste-able Woz file.
 
  PHP
  
@@ -114,6 +117,10 @@ LoopI: ;Image loop
 
 
 It needs to be converted from it’s bin format.
+
+The below program will convert a bin file and 
+export a file with the start location of
+$1000
 
 
 WozHex.py:
