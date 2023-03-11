@@ -247,10 +247,6 @@ FileOut += ' 1000R'
 #FileOut += "\r\n"
 print ('FileOut ')
 print (FileOut)
-txt = 'testing'
-txt = LineOut
-TempName = 'temp'
-
 pc.copy(FileOut)
  
 
