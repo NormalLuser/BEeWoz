@@ -5,7 +5,7 @@ Pretty sure I got it:
 https://github.com/kissmywhat/sd/blob/master/woz_sd.asm
 
 Details about ACIA added to $4000 came from this fine person: 
-mike42 
+mike42 https://mike42.me/blog/2021-07-adding-a-serial-port-to-my-6502-computer
 Also Wilsonminesco, and the 6502 org threads.
 
 I'm using a free version of Tera Term for the RS232 connection.
