@@ -13,7 +13,7 @@
    .org $8000
 
 
-ACIA        = $4000 ;$8800
+ACIA        = $5000 ;$4000 ;$8800
 ACIA_CTRL   = ACIA+3
 ACIA_CMD    = ACIA+2
 ACIA_SR     = ACIA+1
