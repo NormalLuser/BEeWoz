@@ -1,5 +1,20 @@
 
 # BEeWoz 
+
+UPDATE!
+Ben Eater has come out with a ACIA serial kit for the 6502!
+If you don't have a 6551 ACIA chip and such laying around go ahead and get it!
+https://eater.net/shop
+
+It's got what you need and the price of the kit is less than the parts individualy since you'd have to buy multipacks of the passives.
+
+The video for it is on https://www.patreon.com/beneater/posts at the moment, Ben should release this video to his public youtube shortly. https://www.youtube.com/@BenEater
+
+Ben uses $5000 for his ACIA. My ACIA setup works for both $4000 and $5000, I am unsure if this is true of Ben's setup.
+But since it works fine for mine I will change my address for the ACIA in my code to $5000 for the moment.
+I should connect my ACIA up the same as Ben's and test it out with that setup.
+
+
 WozMon for the Ben Eater 6502 with a ACIA add-on 
 Pretty sure I got it:
 https://github.com/kissmywhat/sd/blob/master/woz_sd.asm
