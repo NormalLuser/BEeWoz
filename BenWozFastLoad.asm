@@ -301,7 +301,7 @@ LOADBINARY:
 BINARY_LOOP: ; Could  copy GETCHAR here to save cycles or add timout.
             JSR GETCHAR     ; Grab Byte from ACIA
             STA (STL),Y     ; Store it at our memory location
-            ; Comment out everything down to the to INY if you don't want status
+            ; Comment out everything down to the to MEMINC if you don't want status
             ; IF YOU WANT JUST STATUS USE:
             ;  LDA #'X' 
             ;  STA ACIA_DAT ;DON'T CARE IF IT GETS DROPPED JUST SEND
@@ -318,7 +318,8 @@ HECHO:
             AND #$7F               ;*Change to "standard ASCII"
             STA     ACIA_DATA      ; Output character.
             ;sta io_putc           ; For Kowalski simulator use:
-            ;Check memory pointer for max and INC
+
+MEMINC:     ;Check memory pointer for max and INC
             LDX STH         ; Load our high byte
             CPX H           ; Does it match our max?
             BNE NO_HMATCH   ; Nope, just normal inc
