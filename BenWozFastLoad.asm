@@ -11,7 +11,7 @@
 ;.segment "WOZMON"
 ; .ORG $8000
  .ORG $500
-ACIA        = $4000 
+ACIA        = $5000 
 ACIA_CTRL   = ACIA+3
 ACIA_CMD    = ACIA+2
 ACIA_STATUS     = ACIA+1
